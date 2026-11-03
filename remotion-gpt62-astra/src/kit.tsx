@@ -1,5 +1,5 @@
 import React from 'react';
-import {Easing, interpolate, random} from 'remotion';
+import {Easing, Img, interpolate, random, staticFile} from 'remotion';
 
 export const FONT = "'Be Vietnam Pro', 'Inter', sans-serif";
 export const C = {
@@ -80,7 +80,7 @@ export const Waves: React.FC<{s: number; speed?: number; dark: number}> = ({s, s
     return top ? `M-40,-40 L${pts.join(' L')} L1120,-40 Z` : `M-40,1960 L${pts.join(' L')} L1120,1960 Z`;
   };
   return (
-    <svg width={1080} height={1920} style={{position: 'absolute', inset: 0}}>
+    <svg width={1080} height={1920} style={{position: 'absolute', inset: 0, filter: 'blur(9px)'}}>
       <defs>
         <linearGradient id="wA" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stopColor="#0B8F78" />
@@ -99,9 +99,9 @@ export const Waves: React.FC<{s: number; speed?: number; dark: number}> = ({s, s
           <stop offset="0" stopColor="#FFFFFF" stopOpacity={0.0} />
           <stop offset="1" stopColor="#0FA58A" />
         </linearGradient>
-        <filter id="soft"><feGaussianBlur stdDeviation="10" /></filter>
+        
       </defs>
-      <g opacity={1 - dark * 0.75} filter="url(#soft)">
+      <g opacity={1 - dark * 0.75}>
         <path d={band(330, 90, 0.0042, ph, true)} fill="url(#wB)" />
         <path d={band(200, 120, 0.0035, ph * 0.8 + 1.7, true)} fill="url(#wA)" opacity={0.85} />
         <path d={band(1620, 110, 0.0038, -ph * 0.9 + 0.6, false)} fill="url(#wC)" opacity={0.8} />
@@ -111,14 +111,10 @@ export const Waves: React.FC<{s: number; speed?: number; dark: number}> = ({s, s
   );
 };
 
+/** film grain: 6 pre-baked noise plates cycled per frame (cheap vs. per-frame feTurbulence) */
 export const Grain: React.FC<{frame: number; o?: number}> = ({frame, o = 0.07}) => (
-  <svg width={1080} height={1920} style={{position: 'absolute', inset: 0, opacity: o, mixBlendMode: 'overlay', pointerEvents: 'none'}}>
-    <filter id={`g${frame % 8}`}>
-      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves={2} seed={frame % 8} />
-      <feColorMatrix type="saturate" values="0" />
-    </filter>
-    <rect width="1080" height="1920" filter={`url(#g${frame % 8})`} />
-  </svg>
+  <Img src={staticFile(`grain${frame % 6}.png`)} style={{position: 'absolute', inset: 0, width: 1080, height: 1920,
+    opacity: o * 1.6, mixBlendMode: 'overlay', pointerEvents: 'none', imageRendering: 'pixelated'}} />
 );
 
 export const rnd = (k: string) => random(k);
