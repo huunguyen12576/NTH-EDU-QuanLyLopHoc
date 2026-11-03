@@ -1,0 +1,22 @@
+{
+  "name": "gpt62-astra-teaser",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion 9:16 news teaser: GPT-6.2 Astra (rumor)",
+  "scripts": {
+    "studio": "remotion studio",
+    "music": "python3 scripts/make_music.py",
+    "render": "remotion render AstraTeaser out/gpt62-astra-teaser.mp4 --codec=h264 --crf=16 --audio-bitrate=320k"
+  },
+  "dependencies": {
+    "@fontsource/be-vietnam-pro": "^5.2.0",
+    "@remotion/cli": "^4.0.540",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "i": 0,
+    "start": 1.2,
+    "end": 1.88,
+    "heard": "Hôm nay,"
+  },
+  {
+    "i": 1,
+    "start": 1.88,
+    "end": 4.16,
+    "heard": "một cái tên mới có thể xuất hiện."
+  },
+  {
+    "i": 2,
+    "start": 4.16,
+    "end": 7.12,
+    "heard": "GPT sáu chấm hai,"
+  },
+  {
+    "i": 3,
+    "start": 7.12,
+    "end": 8.3,
+    "heard": "Astra."
+  },
+  {
+    "i": 4,
+    "start": 8.3,
+    "end": 10.96,
+    "heard": "Tibo, từ OpenAI,"
+  },
+  {
+    "i": 5,
+    "start": 10.96,
+    "end": 12.6,
+    "heard": "vừa để lại một gợi ý:"
+  },
+  {
+    "i": 6,
+    "start": 12.6,
+    "end": 15.8,
+    "heard": "đây có thể là một mô hình tham số cực lớn."
+  },
+  {
+    "i": 7,
+    "start": 15.8,
+    "end": 17.36,
+    "heard": "Lớn đến mức nào?"
+  },
+  {
+    "i": 8,
+    "start": 17.36,
+    "end": 18.52,
+    "heard": "Có người đoán:"
+  },
+  {
+    "i": 9,
+    "start": 18.52,
+    "end": 20.96,
+    "heard": "mười nghìn tỷ tham số."
+  },
+  {
+    "i": 10,
+    "start": 20.96,
+    "end": 23.5,
+    "heard": "Nhưng điều bất ngờ nằm ở giá,"
+  },
+  {
+    "i": 11,
+    "start": 23.5,
+    "end": 28.16,
+    "heard": "chi phí được cho là ngang Claude Opus năm chấm năm,"
+  },
+  {
+    "i": 12,
+    "start": 28.16,
+    "end": 31.76,
+    "heard": "và chắc chắn rẻ hơn GPT sáu Astra."
+  },
+  {
+    "i": 13,
+    "start": 31.76,
+    "end": 33.08,
+    "heard": "Lớn hơn,"
+  },
+  {
+    "i": 14,
+    "start": 33.08,
+    "end": 34.72,
+    "heard": "mà lại rẻ hơn."
+  },
+  {
+    "i": 15,
+    "start": 34.72,
+    "end": 35.7,
+    "heard": "Nếu đúng,"
+  },
+  {
+    "i": 16,
+    "start": 35.7,
+    "end": 38.92,
+    "heard": "cuộc đua AI không còn là ai to nhất,"
+  },
+  {
+    "i": 17,
+    "start": 38.92,
+    "end": 42.52,
+    "heard": "mà là ai đưa trí tuệ đến tay nhiều người nhất."
+  },
+  {
+    "i": 18,
+    "start": 42.52,
+    "end": 44.76,
+    "heard": "Tất cả vẫn là tin đồn."
+  },
+  {
+    "i": 19,
+    "start": 44.76,
+    "end": 46.0,
+    "heard": "Câu trả lời,"
+  },
+  {
+    "i": 20,
+    "start": 46.0,
+    "end": 47.96,
+    "heard": "có thể đến ngay hôm nay."
+  }
+]
