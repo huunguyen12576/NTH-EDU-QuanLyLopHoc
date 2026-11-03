@@ -4,7 +4,7 @@ Phim ngắn 29 giây làm lại hoàn toàn bằng code từ video tham chiếu 
 Phim giữ DNA của bản gốc: nền đen, nhân vật que trắng, khối gạch 3D, khăn bịt mắt đỏ, đám đông, vực thẳm, dòng chữ gõ từng ký tự.
 Ẩn dụ được chuyển sang chủ đề **cầu toàn và hành động**.
 
-- **Output:** `out/cau-toan-vs-hanh-dong.mp4` — 1080×1920, 30fps, H.264 CRF16 + AAC 320k, 29s
+- **Output:** `out/cau-toan-vs-hanh-dong_web.mp4` (16 MB, H.264 CRF21, có trong repo) · master CRF16 (113 MB) tạo bằng `npm run render` — 1080×1920, 30fps, AAC 320k, 29s
 - **Font:** Montserrat (SIL OFL), tự host, gồm subset tiếng Việt
 - **Âm thanh:** nhạc và SFX đều tự tổng hợp bằng Python/NumPy, không dùng sample hay bản ghi của bên thứ ba. Toàn quyền sử dụng thương mại. Mức −14.6 LUFS.
 
