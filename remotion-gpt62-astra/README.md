@@ -44,4 +44,6 @@ Không commit API key vào repo.
 | Nhạc nền + hiệu ứng âm thanh | Tự tổng hợp từ đầu bằng code (`scripts/make_audio.py`), không dùng sample nào | Tác phẩm gốc, không có quyền của bên thứ ba |
 | Giọng đọc | Google Gemini TTS (giọng Charon), tạo bằng API key của người dùng | Theo điều khoản Gemini API: nội dung tạo ra thuộc quyền sử dụng của người dùng |
 | Hình ảnh, chuyển động (ngôi sao, sóng, lưới, biểu đồ) | Vẽ trong code (SVG/CSS) | Tác phẩm gốc |
-| Logo OpenAI / Anthropic | **Không sử dụng.** Tên sản phẩm chỉ xuất hiện dưới dạng chữ, mang tính thông tin | — |
+| Logo OpenAI (`public/logo_*.png`) | Tách từ ảnh key visual người dùng cung cấp | Thương hiệu của OpenAI. Dùng theo yêu cầu của người dùng cho mục đích tin tức/bình luận; người đăng tự chịu trách nhiệm về việc dùng thương hiệu |
+| Avatar Tibo (tùy chọn, `tiboAvatar` trong `src/timeline.json`) | Người dùng cung cấp | Ảnh chân dung của bên thứ ba; người đăng tự chịu trách nhiệm xin phép/ghi nguồn |
+| Logo Anthropic | Không sử dụng | — |

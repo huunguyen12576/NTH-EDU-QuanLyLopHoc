@@ -226,5 +226,6 @@
    46.0
   ]
  ],
- "_note": "captions & duration are in final video time; beats + scene code use the legacy clock, mapped via warp [video_t, legacy_t]"
+ "_note": "captions & duration are in final video time; beats + scene code use the legacy clock, mapped via warp [video_t, legacy_t]",
+ "tiboAvatar": null
 }

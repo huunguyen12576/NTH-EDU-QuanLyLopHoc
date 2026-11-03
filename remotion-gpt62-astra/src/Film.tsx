@@ -1,10 +1,20 @@
 import React from 'react';
-import {AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig, Easing} from 'remotion';
+import {AbsoluteFill, Audio, Img, staticFile, useCurrentFrame, useVideoConfig, Easing} from 'remotion';
 import './fonts.css';
 import T from './timeline.json';
-import {C, FONT, GRAD, Grain, Star, Waves, pop, r, rio, rnd, shake, win} from './kit';
+import {C, FONT, GRAD, Grain, Waves, pop, r, rio, rnd, shake, win} from './kit';
 
 const B = T.beats;
+const TIBO_AVATAR = (T as {tiboAvatar?: string | null}).tiboAvatar ?? null;
+
+/** OpenAI logo (extracted from the user-supplied key visual) with a soft teal halo */
+const Logo: React.FC<{size: number; glow?: number; rot?: number}> = ({size, glow = 1, rot = 0}) => (
+  <div style={{position: 'relative', width: size, height: size}}>
+    <div style={{position: 'absolute', inset: -size * 0.45, borderRadius: '50%',
+      background: `radial-gradient(circle, rgba(124,245,210,${0.55 * glow}) 0%, rgba(124,245,210,0) 62%)`}} />
+    <Img src={staticFile('logo_ink.png')} style={{position: 'absolute', inset: 0, width: size, height: size, transform: `rotate(${rot}deg)`}} />
+  </div>
+);
 const W = T.warp as number[][];
 const warp = (t: number) => {
   for (let i = 1; i < W.length; i++) {
@@ -84,8 +94,8 @@ const Reveal: React.FC<{s: number}> = ({s}) => {
   const exit = r(s, 6.9, 7.2);
   return (
     <AbsoluteFill style={{opacity: o, transform: `scale(${1 + exit * 0.25})`, filter: `blur(${exit * 10}px)`}}>
-      <div style={{position: 'absolute', left: 540 - 170, top: 360, transform: `scale(${pop(s, B.reveal + 0.1, 8, 0.45)}) rotate(${(s - B.reveal) * 12}deg)`}}>
-        <Star size={340} id="rev" glow={0.9 + 0.3 * Math.sin(s * 3)} />
+      <div style={{position: 'absolute', left: 540 - 150, top: 400, transform: `scale(${pop(s, B.reveal + 0.1, 8, 0.45)})`}}>
+        <Logo size={300} rot={(s - B.reveal) * 6} glow={0.9 + 0.3 * Math.sin(s * 3)} />
       </div>
       <div style={{...center, top: 780, fontSize: 196, fontWeight: 900, color: C.ink, lineHeight: 1.15, letterSpacing: '-0.035em',
         transform: `scale(${1.35 - 0.35 * p})`, opacity: Math.min(1, p * 1.5)}}>
@@ -123,11 +133,17 @@ const Hint: React.FC<{s: number}> = ({s}) => {
         background: 'rgba(255,255,255,0.72)', boxShadow: '0 40px 90px rgba(10,80,70,0.16)', border: '1px solid rgba(255,255,255,0.9)',
         fontFamily: FONT, opacity: card, transform: `translateY(${(1 - card) * 60}px)`}}>
         <div style={{display: 'flex', alignItems: 'center', gap: 26}}>
-          <div style={{width: 96, height: 96, borderRadius: 48, background: GRAD, color: '#fff', fontSize: 50, fontWeight: 900,
-            display: 'flex', alignItems: 'center', justifyContent: 'center'}}>T</div>
+          {TIBO_AVATAR ? (
+            <Img src={staticFile(TIBO_AVATAR)} style={{width: 96, height: 96, borderRadius: 48, objectFit: 'cover'}} />
+          ) : (
+            <div style={{width: 96, height: 96, borderRadius: 48, background: GRAD, color: '#fff', fontSize: 50, fontWeight: 900,
+              display: 'flex', alignItems: 'center', justifyContent: 'center'}}>T</div>
+          )}
           <div>
             <div style={{fontSize: 52, fontWeight: 800, color: C.ink, lineHeight: 1.2}}>Tibo</div>
-            <div style={{fontSize: 34, fontWeight: 600, color: '#5B6B75', lineHeight: 1.3}}>OpenAI</div>
+            <div style={{display: 'flex', alignItems: 'center', gap: 10, fontSize: 34, fontWeight: 600, color: '#5B6B75', lineHeight: 1.3}}>
+              <Img src={staticFile('logo_ink.png')} style={{width: 34, height: 34, opacity: 0.85}} />OpenAI
+            </div>
           </div>
           <div style={{marginLeft: 'auto', fontSize: 28, fontWeight: 800, letterSpacing: '0.18em', color: C.teal,
             border: `2px solid ${C.teal}`, borderRadius: 40, padding: '10px 20px'}}>GỢI Ý</div>
@@ -380,8 +396,8 @@ const Ending: React.FC<{s: number}> = ({s}) => {
       <div style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 1000, overflow: 'hidden', opacity: r(s, B.answer, B.answer + 0.3)}}>
         <div style={{position: 'absolute', left: 540 - 400 * (0.5 + 0.5 * rise), top: 1000 - 400 * (0.5 + 0.5 * rise), width: 800 * (0.5 + 0.5 * rise),
           height: 800 * (0.5 + 0.5 * rise), borderRadius: '50%', background: 'radial-gradient(circle, rgba(124,245,210,0.55), transparent 65%)'}} />
-        <div style={{position: 'absolute', left: 540 - 160, top: 1010 - 330 * rise - 160 + (1 - rise) * 160}}>
-          <Star size={320} id="end" rot={s * 8} glow={0.6 + 0.6 * rise} />
+        <div style={{position: 'absolute', left: 540 - 140, top: 1010 - 330 * rise - 140 + (1 - rise) * 160}}>
+          <Logo size={280} rot={s * 4} glow={0.6 + 0.6 * rise} />
         </div>
       </div>
       <div style={{position: 'absolute', top: 999, left: 540 - 520 * r(s, B.answer, B.answer + 0.6), width: 1040 * r(s, B.answer, B.answer + 0.6), height: 3,
