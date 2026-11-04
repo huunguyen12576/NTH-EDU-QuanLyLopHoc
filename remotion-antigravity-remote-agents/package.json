@@ -1,0 +1,26 @@
+{
+  "name": "antigravity-remote-agents",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion short film: Bếp vẫn đỏ lửa — Google Antigravity Remote Agents (9:16, 1080x1920, 30fps)",
+  "scripts": {
+    "studio": "remotion studio",
+    "timeline": "python3 scripts/build_timeline.py",
+    "audio": "python3 audio/make_audio.py",
+    "render": "remotion render BepVanDoLua out/bep-van-do-lua.mp4 --codec=h264 --crf=16 --audio-bitrate=320k",
+    "build": "npm run timeline && npm run audio && npm run render"
+  },
+  "dependencies": {
+    "@fontsource/be-vietnam-pro": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/noto-serif-display": "^5.3.0",
+    "@remotion/cli": "^4.0.540",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^5.9.3"
+  }
+}

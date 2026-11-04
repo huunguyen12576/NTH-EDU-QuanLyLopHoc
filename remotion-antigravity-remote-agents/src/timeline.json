@@ -1,0 +1,1490 @@
+{
+ "fps": 30,
+ "voiceDuration": 72.1265,
+ "durationInFrames": 2272,
+ "phrases": [
+  {
+   "key": "lid",
+   "text": "Bạn gập laptop lại.",
+   "start": 0.38,
+   "end": 1.45,
+   "words": [
+    {
+     "w": "Bạn",
+     "start": 0.38,
+     "end": 0.562
+    },
+    {
+     "w": "gập",
+     "start": 0.562,
+     "end": 0.804
+    },
+    {
+     "w": "laptop",
+     "start": 0.804,
+     "end": 1.268
+    },
+    {
+     "w": "lại.",
+     "start": 1.268,
+     "end": 1.45
+    }
+   ]
+  },
+  {
+   "key": "code",
+   "text": "Nhưng code…",
+   "start": 1.98,
+   "end": 2.42,
+   "words": [
+    {
+     "w": "Nhưng",
+     "start": 1.98,
+     "end": 2.155
+    },
+    {
+     "w": "code…",
+     "start": 2.155,
+     "end": 2.42
+    }
+   ]
+  },
+  {
+   "key": "write",
+   "text": "vẫn đang được viết tiếp.",
+   "start": 2.68,
+   "end": 3.6,
+   "words": [
+    {
+     "w": "vẫn",
+     "start": 2.68,
+     "end": 2.838
+    },
+    {
+     "w": "đang",
+     "start": 2.838,
+     "end": 2.996
+    },
+    {
+     "w": "được",
+     "start": 2.996,
+     "end": 3.154
+    },
+    {
+     "w": "viết",
+     "start": 3.154,
+     "end": 3.382
+    },
+    {
+     "w": "tiếp.",
+     "start": 3.382,
+     "end": 3.6
+    }
+   ]
+  },
+  {
+   "key": "voly",
+   "text": "Nghe vô lý?",
+   "start": 4.59,
+   "end": 5.15,
+   "words": [
+    {
+     "w": "Nghe",
+     "start": 4.59,
+     "end": 4.777
+    },
+    {
+     "w": "vô",
+     "start": 4.777,
+     "end": 4.963
+    },
+    {
+     "w": "lý?",
+     "start": 4.963,
+     "end": 5.15
+    }
+   ]
+  },
+  {
+   "key": "bepga",
+   "text": "Hãy nghĩ về cái bếp ga.",
+   "start": 5.73,
+   "end": 6.83,
+   "words": [
+    {
+     "w": "Hãy",
+     "start": 5.73,
+     "end": 5.913
+    },
+    {
+     "w": "nghĩ",
+     "start": 5.913,
+     "end": 6.097
+    },
+    {
+     "w": "về",
+     "start": 6.097,
+     "end": 6.28
+    },
+    {
+     "w": "cái",
+     "start": 6.28,
+     "end": 6.463
+    },
+    {
+     "w": "bếp",
+     "start": 6.463,
+     "end": 6.647
+    },
+    {
+     "w": "ga.",
+     "start": 6.647,
+     "end": 6.83
+    }
+   ]
+  },
+  {
+   "key": "truoc",
+   "text": "Trước giờ,",
+   "start": 7.66,
+   "end": 8.02,
+   "words": [
+    {
+     "w": "Trước",
+     "start": 7.66,
+     "end": 7.84
+    },
+    {
+     "w": "giờ,",
+     "start": 7.84,
+     "end": 8.02
+    }
+   ]
+  },
+  {
+   "key": "giao",
+   "text": "giao việc cho AI agent giống như nấu trên bếp ga.",
+   "start": 8.25,
+   "end": 11.02,
+   "words": [
+    {
+     "w": "giao",
+     "start": 8.25,
+     "end": 8.435
+    },
+    {
+     "w": "việc",
+     "start": 8.435,
+     "end": 8.619
+    },
+    {
+     "w": "cho",
+     "start": 8.619,
+     "end": 8.894
+    },
+    {
+     "w": "AI",
+     "start": 8.894,
+     "end": 9.263
+    },
+    {
+     "w": "agent",
+     "start": 9.263,
+     "end": 9.832
+    },
+    {
+     "w": "giống",
+     "start": 9.832,
+     "end": 10.017
+    },
+    {
+     "w": "như",
+     "start": 10.017,
+     "end": 10.202
+    },
+    {
+     "w": "nấu",
+     "start": 10.202,
+     "end": 10.386
+    },
+    {
+     "w": "trên",
+     "start": 10.386,
+     "end": 10.571
+    },
+    {
+     "w": "bếp",
+     "start": 10.571,
+     "end": 10.835
+    },
+    {
+     "w": "ga.",
+     "start": 10.835,
+     "end": 11.02
+    }
+   ]
+  },
+  {
+   "key": "giaoxong",
+   "text": "Giao xong,",
+   "start": 11.63,
+   "end": 12.1,
+   "words": [
+    {
+     "w": "Giao",
+     "start": 11.63,
+     "end": 11.865
+    },
+    {
+     "w": "xong,",
+     "start": 11.865,
+     "end": 12.1
+    }
+   ]
+  },
+  {
+   "key": "canh",
+   "text": "bạn vẫn phải đứng canh.",
+   "start": 12.34,
+   "end": 13.28,
+   "words": [
+    {
+     "w": "bạn",
+     "start": 12.34,
+     "end": 12.528
+    },
+    {
+     "w": "vẫn",
+     "start": 12.528,
+     "end": 12.716
+    },
+    {
+     "w": "phải",
+     "start": 12.716,
+     "end": 12.904
+    },
+    {
+     "w": "đứng",
+     "start": 12.904,
+     "end": 13.092
+    },
+    {
+     "w": "canh.",
+     "start": 13.092,
+     "end": 13.28
+    }
+   ]
+  },
+  {
+   "key": "tatmay",
+   "text": "Tắt máy,",
+   "start": 13.96,
+   "end": 14.45,
+   "words": [
+    {
+     "w": "Tắt",
+     "start": 13.96,
+     "end": 14.255
+    },
+    {
+     "w": "máy,",
+     "start": 14.255,
+     "end": 14.45
+    }
+   ]
+  },
+  {
+   "key": "tatbep",
+   "text": "là tắt bếp.",
+   "start": 14.67,
+   "end": 15.24,
+   "words": [
+    {
+     "w": "là",
+     "start": 14.67,
+     "end": 14.803
+    },
+    {
+     "w": "tắt",
+     "start": 14.803,
+     "end": 15.107
+    },
+    {
+     "w": "bếp.",
+     "start": 15.107,
+     "end": 15.24
+    }
+   ]
+  },
+  {
+   "key": "noinguoi",
+   "text": "Nồi nguội,",
+   "start": 15.7,
+   "end": 16.28,
+   "words": [
+    {
+     "w": "Nồi",
+     "start": 15.7,
+     "end": 15.99
+    },
+    {
+     "w": "nguội,",
+     "start": 15.99,
+     "end": 16.28
+    }
+   ]
+  },
+  {
+   "key": "dodang",
+   "text": "việc dở dang.",
+   "start": 16.58,
+   "end": 17.27,
+   "words": [
+    {
+     "w": "việc",
+     "start": 16.58,
+     "end": 16.87
+    },
+    {
+     "w": "dở",
+     "start": 16.87,
+     "end": 17.07
+    },
+    {
+     "w": "dang.",
+     "start": 17.07,
+     "end": 17.27
+    }
+   ]
+  },
+  {
+   "key": "ngoi",
+   "text": "Thế là ta cứ ngồi đó.",
+   "start": 18.29,
+   "end": 19.44,
+   "words": [
+    {
+     "w": "Thế",
+     "start": 18.29,
+     "end": 18.472
+    },
+    {
+     "w": "là",
+     "start": 18.472,
+     "end": 18.653
+    },
+    {
+     "w": "ta",
+     "start": 18.653,
+     "end": 18.895
+    },
+    {
+     "w": "cứ",
+     "start": 18.895,
+     "end": 19.077
+    },
+    {
+     "w": "ngồi",
+     "start": 19.077,
+     "end": 19.258
+    },
+    {
+     "w": "đó.",
+     "start": 19.258,
+     "end": 19.44
+    }
+   ]
+  },
+  {
+   "key": "maymo",
+   "text": "Máy mở,",
+   "start": 19.79,
+   "end": 20.39,
+   "words": [
+    {
+     "w": "Máy",
+     "start": 19.79,
+     "end": 20.09
+    },
+    {
+     "w": "mở,",
+     "start": 20.09,
+     "end": 20.39
+    }
+   ]
+  },
+  {
+   "key": "mat",
+   "text": "mắt dán vào màn hình.",
+   "start": 20.55,
+   "end": 21.46,
+   "words": [
+    {
+     "w": "mắt",
+     "start": 20.55,
+     "end": 20.828
+    },
+    {
+     "w": "dán",
+     "start": 20.828,
+     "end": 20.986
+    },
+    {
+     "w": "vào",
+     "start": 20.986,
+     "end": 21.144
+    },
+    {
+     "w": "màn",
+     "start": 21.144,
+     "end": 21.302
+    },
+    {
+     "w": "hình.",
+     "start": 21.302,
+     "end": 21.46
+    }
+   ]
+  },
+  {
+   "key": "dat",
+   "text": "Thứ đắt nhất,",
+   "start": 22.25,
+   "end": 22.75,
+   "words": [
+    {
+     "w": "Thứ",
+     "start": 22.25,
+     "end": 22.383
+    },
+    {
+     "w": "đắt",
+     "start": 22.383,
+     "end": 22.517
+    },
+    {
+     "w": "nhất,",
+     "start": 22.517,
+     "end": 22.75
+    }
+   ]
+  },
+  {
+   "key": "khongai",
+   "text": "hóa ra không phải AI.",
+   "start": 23.2,
+   "end": 24.5,
+   "words": [
+    {
+     "w": "hóa",
+     "start": 23.2,
+     "end": 23.417
+    },
+    {
+     "w": "ra",
+     "start": 23.417,
+     "end": 23.633
+    },
+    {
+     "w": "không",
+     "start": 23.633,
+     "end": 23.85
+    },
+    {
+     "w": "phải",
+     "start": 23.85,
+     "end": 24.067
+    },
+    {
+     "w": "AI.",
+     "start": 24.067,
+     "end": 24.5
+    }
+   ]
+  },
+  {
+   "key": "thoigian",
+   "text": "Mà là thời gian của chính bạn.",
+   "start": 24.98,
+   "end": 26.33,
+   "words": [
+    {
+     "w": "Mà",
+     "start": 24.98,
+     "end": 25.164
+    },
+    {
+     "w": "là",
+     "start": 25.164,
+     "end": 25.409
+    },
+    {
+     "w": "thời",
+     "start": 25.409,
+     "end": 25.593
+    },
+    {
+     "w": "gian",
+     "start": 25.593,
+     "end": 25.777
+    },
+    {
+     "w": "của",
+     "start": 25.777,
+     "end": 25.961
+    },
+    {
+     "w": "chính",
+     "start": 25.961,
+     "end": 26.146
+    },
+    {
+     "w": "bạn.",
+     "start": 26.146,
+     "end": 26.33
+    }
+   ]
+  },
+  {
+   "key": "vagio",
+   "text": "Và giờ,",
+   "start": 27.34,
+   "end": 27.73,
+   "words": [
+    {
+     "w": "Và",
+     "start": 27.34,
+     "end": 27.535
+    },
+    {
+     "w": "giờ,",
+     "start": 27.535,
+     "end": 27.73
+    }
+   ]
+  },
+  {
+   "key": "reveal",
+   "text": "Google Antigravity vừa thêm Remote Agents.",
+   "start": 28.12,
+   "end": 30.56,
+   "words": [
+    {
+     "w": "Google",
+     "start": 28.12,
+     "end": 28.438
+    },
+    {
+     "w": "Antigravity",
+     "start": 28.438,
+     "end": 29.605
+    },
+    {
+     "w": "vừa",
+     "start": 29.605,
+     "end": 29.764
+    },
+    {
+     "w": "thêm",
+     "start": 29.764,
+     "end": 29.923
+    },
+    {
+     "w": "Remote",
+     "start": 29.923,
+     "end": 30.242
+    },
+    {
+     "w": "Agents.",
+     "start": 30.242,
+     "end": 30.56
+    }
+   ]
+  },
+  {
+   "key": "cloud",
+   "text": "Agent có thể chạy trên đám mây,",
+   "start": 31.07,
+   "end": 32.4,
+   "words": [
+    {
+     "w": "Agent",
+     "start": 31.07,
+     "end": 31.402
+    },
+    {
+     "w": "có",
+     "start": 31.402,
+     "end": 31.569
+    },
+    {
+     "w": "thể",
+     "start": 31.569,
+     "end": 31.735
+    },
+    {
+     "w": "chạy",
+     "start": 31.735,
+     "end": 31.901
+    },
+    {
+     "w": "trên",
+     "start": 31.901,
+     "end": 32.067
+    },
+    {
+     "w": "đám",
+     "start": 32.067,
+     "end": 32.234
+    },
+    {
+     "w": "mây,",
+     "start": 32.234,
+     "end": 32.4
+    }
+   ]
+  },
+  {
+   "key": "thayvi",
+   "text": "thay vì trên máy của bạn.",
+   "start": 32.73,
+   "end": 33.77,
+   "words": [
+    {
+     "w": "thay",
+     "start": 32.73,
+     "end": 32.903
+    },
+    {
+     "w": "vì",
+     "start": 32.903,
+     "end": 33.077
+    },
+    {
+     "w": "trên",
+     "start": 33.077,
+     "end": 33.25
+    },
+    {
+     "w": "máy",
+     "start": 33.25,
+     "end": 33.423
+    },
+    {
+     "w": "của",
+     "start": 33.423,
+     "end": 33.597
+    },
+    {
+     "w": "bạn.",
+     "start": 33.597,
+     "end": 33.77
+    }
+   ]
+  },
+  {
+   "key": "noicom",
+   "text": "Giống như gửi nồi cơm điện sang bếp của Google:",
+   "start": 34.78,
+   "end": 37.07,
+   "words": [
+    {
+     "w": "Giống",
+     "start": 34.78,
+     "end": 34.965
+    },
+    {
+     "w": "như",
+     "start": 34.965,
+     "end": 35.149
+    },
+    {
+     "w": "gửi",
+     "start": 35.149,
+     "end": 35.594
+    },
+    {
+     "w": "nồi",
+     "start": 35.594,
+     "end": 35.778
+    },
+    {
+     "w": "cơm",
+     "start": 35.778,
+     "end": 35.963
+    },
+    {
+     "w": "điện",
+     "start": 35.963,
+     "end": 36.147
+    },
+    {
+     "w": "sang",
+     "start": 36.147,
+     "end": 36.332
+    },
+    {
+     "w": "bếp",
+     "start": 36.332,
+     "end": 36.516
+    },
+    {
+     "w": "của",
+     "start": 36.516,
+     "end": 36.701
+    },
+    {
+     "w": "Google:",
+     "start": 36.701,
+     "end": 37.07
+    }
+   ]
+  },
+  {
+   "key": "bamnut",
+   "text": "bấm nút,",
+   "start": 37.63,
+   "end": 37.94,
+   "words": [
+    {
+     "w": "bấm",
+     "start": 37.63,
+     "end": 37.785
+    },
+    {
+     "w": "nút,",
+     "start": 37.785,
+     "end": 37.94
+    }
+   ]
+  },
+  {
+   "key": "roidi",
+   "text": "rồi đi.",
+   "start": 38.41,
+   "end": 38.66,
+   "words": [
+    {
+     "w": "rồi",
+     "start": 38.41,
+     "end": 38.535
+    },
+    {
+     "w": "đi.",
+     "start": 38.535,
+     "end": 38.66
+    }
+   ]
+  },
+  {
+   "key": "dong",
+   "text": "Bạn đóng ứng dụng,",
+   "start": 39.45,
+   "end": 40.16,
+   "words": [
+    {
+     "w": "Bạn",
+     "start": 39.45,
+     "end": 39.628
+    },
+    {
+     "w": "đóng",
+     "start": 39.628,
+     "end": 39.805
+    },
+    {
+     "w": "ứng",
+     "start": 39.805,
+     "end": 39.983
+    },
+    {
+     "w": "dụng,",
+     "start": 39.983,
+     "end": 40.16
+    }
+   ]
+  },
+  {
+   "key": "vannau",
+   "text": "nó vẫn nấu.",
+   "start": 40.51,
+   "end": 41.14,
+   "words": [
+    {
+     "w": "nó",
+     "start": 40.51,
+     "end": 40.72
+    },
+    {
+     "w": "vẫn",
+     "start": 40.72,
+     "end": 40.93
+    },
+    {
+     "w": "nấu.",
+     "start": 40.93,
+     "end": 41.14
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "text": "Nguyên liệu lấy từ GitHub,",
+   "start": 41.89,
+   "end": 42.93,
+   "words": [
+    {
+     "w": "Nguyên",
+     "start": 41.89,
+     "end": 42.052
+    },
+    {
+     "w": "liệu",
+     "start": 42.052,
+     "end": 42.213
+    },
+    {
+     "w": "lấy",
+     "start": 42.213,
+     "end": 42.375
+    },
+    {
+     "w": "từ",
+     "start": 42.375,
+     "end": 42.537
+    },
+    {
+     "w": "GitHub,",
+     "start": 42.537,
+     "end": 42.93
+    }
+   ]
+  },
+  {
+   "key": "drive",
+   "text": "Google Drive,",
+   "start": 43.23,
+   "end": 43.75,
+   "words": [
+    {
+     "w": "Google",
+     "start": 43.23,
+     "end": 43.577
+    },
+    {
+     "w": "Drive,",
+     "start": 43.577,
+     "end": 43.75
+    }
+   ]
+  },
+  {
+   "key": "tep",
+   "text": "hoặc tệp bạn tải lên.",
+   "start": 44.02,
+   "end": 44.99,
+   "words": [
+    {
+     "w": "hoặc",
+     "start": 44.02,
+     "end": 44.35
+    },
+    {
+     "w": "tệp",
+     "start": 44.35,
+     "end": 44.51
+    },
+    {
+     "w": "bạn",
+     "start": 44.51,
+     "end": 44.67
+    },
+    {
+     "w": "tải",
+     "start": 44.67,
+     "end": 44.83
+    },
+    {
+     "w": "lên.",
+     "start": 44.83,
+     "end": 44.99
+    }
+   ]
+  },
+  {
+   "key": "tiendo",
+   "text": "Muốn xem tiến độ?",
+   "start": 45.6,
+   "end": 46.34,
+   "words": [
+    {
+     "w": "Muốn",
+     "start": 45.6,
+     "end": 45.785
+    },
+    {
+     "w": "xem",
+     "start": 45.785,
+     "end": 45.97
+    },
+    {
+     "w": "tiến",
+     "start": 45.97,
+     "end": 46.155
+    },
+    {
+     "w": "độ?",
+     "start": 46.155,
+     "end": 46.34
+    }
+   ]
+  },
+  {
+   "key": "browser",
+   "text": "Mở bất kỳ trình duyệt nào.",
+   "start": 46.69,
+   "end": 47.89,
+   "words": [
+    {
+     "w": "Mở",
+     "start": 46.69,
+     "end": 46.867
+    },
+    {
+     "w": "bất",
+     "start": 46.867,
+     "end": 47.043
+    },
+    {
+     "w": "kỳ",
+     "start": 47.043,
+     "end": 47.36
+    },
+    {
+     "w": "trình",
+     "start": 47.36,
+     "end": 47.537
+    },
+    {
+     "w": "duyệt",
+     "start": 47.537,
+     "end": 47.713
+    },
+    {
+     "w": "nào.",
+     "start": 47.713,
+     "end": 47.89
+    }
+   ]
+  },
+  {
+   "key": "nhungnho",
+   "text": "Nhưng nhớ:",
+   "start": 48.78,
+   "end": 49.17,
+   "words": [
+    {
+     "w": "Nhưng",
+     "start": 48.78,
+     "end": 48.975
+    },
+    {
+     "w": "nhớ:",
+     "start": 48.975,
+     "end": 49.17
+    }
+   ]
+  },
+  {
+   "key": "comchin",
+   "text": "cơm chín rồi,",
+   "start": 49.61,
+   "end": 50.28,
+   "words": [
+    {
+     "w": "cơm",
+     "start": 49.61,
+     "end": 49.833
+    },
+    {
+     "w": "chín",
+     "start": 49.833,
+     "end": 50.057
+    },
+    {
+     "w": "rồi,",
+     "start": 50.057,
+     "end": 50.28
+    }
+   ]
+  },
+  {
+   "key": "nem",
+   "text": "vẫn phải nếm.",
+   "start": 50.6,
+   "end": 51.26,
+   "words": [
+    {
+     "w": "vẫn",
+     "start": 50.6,
+     "end": 50.82
+    },
+    {
+     "w": "phải",
+     "start": 50.82,
+     "end": 51.04
+    },
+    {
+     "w": "nếm.",
+     "start": 51.04,
+     "end": 51.26
+    }
+   ]
+  },
+  {
+   "key": "codeagent",
+   "text": "Code agent viết,",
+   "start": 51.85,
+   "end": 52.57,
+   "words": [
+    {
+     "w": "Code",
+     "start": 51.85,
+     "end": 52.005
+    },
+    {
+     "w": "agent",
+     "start": 52.005,
+     "end": 52.415
+    },
+    {
+     "w": "viết,",
+     "start": 52.415,
+     "end": 52.57
+    }
+   ]
+  },
+  {
+   "key": "doclai",
+   "text": "bạn vẫn cần đọc lại.",
+   "start": 52.95,
+   "end": 53.94,
+   "words": [
+    {
+     "w": "bạn",
+     "start": 52.95,
+     "end": 53.148
+    },
+    {
+     "w": "vẫn",
+     "start": 53.148,
+     "end": 53.346
+    },
+    {
+     "w": "cần",
+     "start": 53.346,
+     "end": 53.544
+    },
+    {
+     "w": "đọc",
+     "start": 53.544,
+     "end": 53.742
+    },
+    {
+     "w": "lại.",
+     "start": 53.742,
+     "end": 53.94
+    }
+   ]
+  },
+  {
+   "key": "claude",
+   "text": "Claude Code,",
+   "start": 54.84,
+   "end": 55.27,
+   "words": [
+    {
+     "w": "Claude",
+     "start": 54.84,
+     "end": 55.025
+    },
+    {
+     "w": "Code,",
+     "start": 55.025,
+     "end": 55.27
+    }
+   ]
+  },
+  {
+   "key": "codex",
+   "text": "Codex,",
+   "start": 55.71,
+   "end": 56.15,
+   "words": [
+    {
+     "w": "Codex,",
+     "start": 55.71,
+     "end": 56.15
+    }
+   ]
+  },
+  {
+   "key": "antig",
+   "text": "và giờ là Antigravity,",
+   "start": 56.44,
+   "end": 57.37,
+   "words": [
+    {
+     "w": "và",
+     "start": 56.44,
+     "end": 56.556
+    },
+    {
+     "w": "giờ",
+     "start": 56.556,
+     "end": 56.672
+    },
+    {
+     "w": "là",
+     "start": 56.672,
+     "end": 56.789
+    },
+    {
+     "w": "Antigravity,",
+     "start": 56.789,
+     "end": 57.37
+    }
+   ]
+  },
+  {
+   "key": "huong",
+   "text": "đều đang chạy về cùng một hướng.",
+   "start": 57.78,
+   "end": 59.09,
+   "words": [
+    {
+     "w": "đều",
+     "start": 57.78,
+     "end": 57.967
+    },
+    {
+     "w": "đang",
+     "start": 57.967,
+     "end": 58.154
+    },
+    {
+     "w": "chạy",
+     "start": 58.154,
+     "end": 58.341
+    },
+    {
+     "w": "về",
+     "start": 58.341,
+     "end": 58.529
+    },
+    {
+     "w": "cùng",
+     "start": 58.529,
+     "end": 58.716
+    },
+    {
+     "w": "một",
+     "start": 58.716,
+     "end": 58.903
+    },
+    {
+     "w": "hướng.",
+     "start": 58.903,
+     "end": 59.09
+    }
+   ]
+  },
+  {
+   "key": "vagoogle",
+   "text": "Và Google,",
+   "start": 59.62,
+   "end": 60.2,
+   "words": [
+    {
+     "w": "Và",
+     "start": 59.62,
+     "end": 59.813
+    },
+    {
+     "w": "Google,",
+     "start": 59.813,
+     "end": 60.2
+    }
+   ]
+  },
+  {
+   "key": "roro",
+   "text": "rõ ràng,",
+   "start": 60.55,
+   "end": 61.11,
+   "words": [
+    {
+     "w": "rõ",
+     "start": 60.55,
+     "end": 60.83
+    },
+    {
+     "w": "ràng,",
+     "start": 60.83,
+     "end": 61.11
+    }
+   ]
+  },
+  {
+   "key": "nghiemtuc",
+   "text": "đang nấu rất nghiêm túc.",
+   "start": 61.37,
+   "end": 62.32,
+   "words": [
+    {
+     "w": "đang",
+     "start": 61.37,
+     "end": 61.538
+    },
+    {
+     "w": "nấu",
+     "start": 61.538,
+     "end": 61.706
+    },
+    {
+     "w": "rất",
+     "start": 61.706,
+     "end": 61.874
+    },
+    {
+     "w": "nghiêm",
+     "start": 61.874,
+     "end": 62.152
+    },
+    {
+     "w": "túc.",
+     "start": 62.152,
+     "end": 62.32
+    }
+   ]
+  },
+  {
+   "key": "cauhoi",
+   "text": "Vì câu hỏi không còn là AI viết code nhanh cỡ nào.",
+   "start": 63.27,
+   "end": 65.59,
+   "words": [
+    {
+     "w": "Vì",
+     "start": 63.27,
+     "end": 63.438
+    },
+    {
+     "w": "câu",
+     "start": 63.438,
+     "end": 63.607
+    },
+    {
+     "w": "hỏi",
+     "start": 63.607,
+     "end": 63.775
+    },
+    {
+     "w": "không",
+     "start": 63.775,
+     "end": 63.944
+    },
+    {
+     "w": "còn",
+     "start": 63.944,
+     "end": 64.112
+    },
+    {
+     "w": "là",
+     "start": 64.112,
+     "end": 64.281
+    },
+    {
+     "w": "AI",
+     "start": 64.281,
+     "end": 64.618
+    },
+    {
+     "w": "viết",
+     "start": 64.618,
+     "end": 64.846
+    },
+    {
+     "w": "code",
+     "start": 64.846,
+     "end": 65.085
+    },
+    {
+     "w": "nhanh",
+     "start": 65.085,
+     "end": 65.253
+    },
+    {
+     "w": "cỡ",
+     "start": 65.253,
+     "end": 65.422
+    },
+    {
+     "w": "nào.",
+     "start": 65.422,
+     "end": 65.59
+    }
+   ]
+  },
+  {
+   "key": "maila",
+   "text": "Mà là:",
+   "start": 66.03,
+   "end": 66.28,
+   "words": [
+    {
+     "w": "Mà",
+     "start": 66.03,
+     "end": 66.155
+    },
+    {
+     "w": "là:",
+     "start": 66.155,
+     "end": 66.28
+    }
+   ]
+  },
+  {
+   "key": "roidi2",
+   "text": "khi bạn rời đi,",
+   "start": 66.56,
+   "end": 67.31,
+   "words": [
+    {
+     "w": "khi",
+     "start": 66.56,
+     "end": 66.748
+    },
+    {
+     "w": "bạn",
+     "start": 66.748,
+     "end": 66.935
+    },
+    {
+     "w": "rời",
+     "start": 66.935,
+     "end": 67.123
+    },
+    {
+     "w": "đi,",
+     "start": 67.123,
+     "end": 67.31
+    }
+   ]
+  },
+  {
+   "key": "tieptuc",
+   "text": "nó có tiếp tục làm việc cho bạn không.",
+   "start": 67.64,
+   "end": 69.03,
+   "words": [
+    {
+     "w": "nó",
+     "start": 67.64,
+     "end": 67.776
+    },
+    {
+     "w": "có",
+     "start": 67.776,
+     "end": 67.911
+    },
+    {
+     "w": "tiếp",
+     "start": 67.911,
+     "end": 68.147
+    },
+    {
+     "w": "tục",
+     "start": 68.147,
+     "end": 68.282
+    },
+    {
+     "w": "làm",
+     "start": 68.282,
+     "end": 68.418
+    },
+    {
+     "w": "việc",
+     "start": 68.418,
+     "end": 68.623
+    },
+    {
+     "w": "cho",
+     "start": 68.623,
+     "end": 68.759
+    },
+    {
+     "w": "bạn",
+     "start": 68.759,
+     "end": 68.894
+    },
+    {
+     "w": "không.",
+     "start": 68.894,
+     "end": 69.03
+    }
+   ]
+  },
+  {
+   "key": "dadi",
+   "text": "Bạn đã đi.",
+   "start": 69.82,
+   "end": 70.28,
+   "words": [
+    {
+     "w": "Bạn",
+     "start": 69.82,
+     "end": 69.973
+    },
+    {
+     "w": "đã",
+     "start": 69.973,
+     "end": 70.127
+    },
+    {
+     "w": "đi.",
+     "start": 70.127,
+     "end": 70.28
+    }
+   ]
+  },
+  {
+   "key": "dolua",
+   "text": "Bếp vẫn đỏ lửa.",
+   "start": 70.87,
+   "end": 72.12,
+   "words": [
+    {
+     "w": "Bếp",
+     "start": 70.87,
+     "end": 71.193
+    },
+    {
+     "w": "vẫn",
+     "start": 71.193,
+     "end": 71.415
+    },
+    {
+     "w": "đỏ",
+     "start": 71.415,
+     "end": 71.638
+    },
+    {
+     "w": "lửa.",
+     "start": 71.638,
+     "end": 72.12
+    }
+   ]
+  }
+ ]
+}

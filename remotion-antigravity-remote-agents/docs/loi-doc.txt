@@ -1,0 +1,11 @@
+Bạn gập laptop lại. Nhưng code… vẫn đang được viết tiếp.
+Nghe vô lý? Hãy nghĩ về cái bếp ga.
+Trước giờ, giao việc cho AI agent giống như nấu trên bếp ga. Giao xong, bạn vẫn phải đứng canh. Tắt máy, là tắt bếp. Nồi nguội, việc dở dang.
+Thế là ta cứ ngồi đó. Máy mở, mắt dán vào màn hình. Thứ đắt nhất, hóa ra không phải AI. Mà là thời gian của chính bạn.
+Và giờ, Google Antigravity vừa thêm Remote Agents. Agent có thể chạy trên đám mây, thay vì trên máy của bạn.
+Giống như gửi nồi cơm điện sang bếp của Google: bấm nút, rồi đi. Bạn đóng ứng dụng, nó vẫn nấu.
+Nguyên liệu lấy từ GitHub, Google Drive, hoặc tệp bạn tải lên. Muốn xem tiến độ? Mở bất kỳ trình duyệt nào.
+Nhưng nhớ: cơm chín rồi, vẫn phải nếm. Code agent viết, bạn vẫn cần đọc lại.
+Claude Code, Codex, và giờ là Antigravity, đều đang chạy về cùng một hướng. Và Google, rõ ràng, đang nấu rất nghiêm túc.
+Vì câu hỏi không còn là AI viết code nhanh cỡ nào. Mà là: khi bạn rời đi, nó có tiếp tục làm việc cho bạn không.
+Bạn đã đi. Bếp vẫn đỏ lửa.
