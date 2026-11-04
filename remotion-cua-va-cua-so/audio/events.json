@@ -1,0 +1,242 @@
+{
+ "FPS": 30,
+ "DURATION": 960,
+ "F": {
+  "hookEnd": 57,
+  "rewindStart": 63,
+  "rewindEnd": 87,
+  "storyEnd": 756,
+  "fadeOut": 734,
+  "end1": 768,
+  "end2": 808,
+  "end3": 862
+ },
+ "S": {
+  "ask": 0.35,
+  "answer": 1.95,
+  "strictLeave": 3.3,
+  "strictDoorShut": 4.25,
+  "chillCheer": 2.9,
+  "chillExit": 3.9,
+  "chillDoorShut": 5.75,
+  "toWindow": 5.1,
+  "winOpen": 6.45,
+  "outSill": 6.95,
+  "gone": 7.7,
+  "lapse1": [
+   8,
+   9
+  ],
+  "parentIn": 8.9,
+  "huh": 9.75,
+  "sitDown": 11,
+  "lapse2": [
+   11.4,
+   12.4
+  ],
+  "chillHome": 12.4,
+  "howWasIt": 13,
+  "chillLampOn": 14.5,
+  "lapse3": [
+   15,
+   16
+  ],
+  "climbIn": 16,
+  "lampOn": 17.4,
+  "caught": 17.5,
+  "couldAsk": 17.95,
+  "iDid": 19.75,
+  "chillPat": 17.9,
+  "chillLampOff": 19,
+  "chillDoorShut2": 20.3,
+  "end": 22.3
+ },
+ "HOOK_S0": 15.8,
+ "HOOK_S1": 17.7,
+ "steps": [
+  {
+   "s": 4.1749999999999945,
+   "side": "strict",
+   "who": "strictParent",
+   "heavy": true,
+   "layer": "hall",
+   "x": 981.3888888888874
+  },
+  {
+   "s": 9.116666666666655,
+   "side": "strict",
+   "who": "strictParent",
+   "heavy": true,
+   "layer": "hall",
+   "x": 953.2380952380995
+  },
+  {
+   "s": 10.591666666666658,
+   "side": "strict",
+   "who": "strictParent",
+   "heavy": true,
+   "layer": "room",
+   "x": 784.7000000000047
+  },
+  {
+   "s": 10.804166666666646,
+   "side": "strict",
+   "who": "strictParent",
+   "heavy": true,
+   "layer": "room",
+   "x": 659.7500000000118
+  },
+  {
+   "s": 5.504166666666643,
+   "side": "strict",
+   "who": "strictKid",
+   "heavy": false,
+   "layer": "room",
+   "x": 527.1777777777816
+  },
+  {
+   "s": 4.004166666666679,
+   "side": "chill",
+   "who": "chillParent",
+   "heavy": true,
+   "layer": "hall",
+   "x": 981.2500000000036
+  },
+  {
+   "s": 12.799999999999988,
+   "side": "chill",
+   "who": "chillParent",
+   "heavy": true,
+   "layer": "hall",
+   "x": 963.4285714285757
+  },
+  {
+   "s": 14.295833333333325,
+   "side": "chill",
+   "who": "chillParent",
+   "heavy": true,
+   "layer": "room",
+   "x": 778.500000000005
+  },
+  {
+   "s": 14.891666666666655,
+   "side": "chill",
+   "who": "chillParent",
+   "heavy": true,
+   "layer": "room",
+   "x": 622.5555555555609
+  },
+  {
+   "s": 18.795833333333324,
+   "side": "chill",
+   "who": "chillParent",
+   "heavy": true,
+   "layer": "room",
+   "x": 604.4166666666613
+  },
+  {
+   "s": 19.462499999999988,
+   "side": "chill",
+   "who": "chillParent",
+   "heavy": true,
+   "layer": "room",
+   "x": 789.4249999999952
+  },
+  {
+   "s": 19.695833333333308,
+   "side": "chill",
+   "who": "chillParent",
+   "heavy": true,
+   "layer": "room",
+   "x": 883.2249999999898
+  },
+  {
+   "s": 19.974999999999987,
+   "side": "chill",
+   "who": "chillParent",
+   "heavy": true,
+   "layer": "hall",
+   "x": 980.9374999999959
+  },
+  {
+   "s": 3.9958333333333456,
+   "side": "chill",
+   "who": "chillKid",
+   "heavy": false,
+   "layer": "room",
+   "x": 679.3508771929859
+  },
+  {
+   "s": 4.27083333333333,
+   "side": "chill",
+   "who": "chillKid",
+   "heavy": false,
+   "layer": "room",
+   "x": 756.9298245614027
+  },
+  {
+   "s": 4.51666666666665,
+   "side": "chill",
+   "who": "chillKid",
+   "heavy": false,
+   "layer": "room",
+   "x": 826.2807017543812
+  },
+  {
+   "s": 5.079166666666657,
+   "side": "chill",
+   "who": "chillKid",
+   "heavy": false,
+   "layer": "hall",
+   "x": 961.5416666666636
+  },
+  {
+   "s": 12.512499999999994,
+   "side": "chill",
+   "who": "chillKid",
+   "heavy": false,
+   "layer": "hall",
+   "x": 974.2000000000032
+  },
+  {
+   "s": 12.82499999999999,
+   "side": "chill",
+   "who": "chillKid",
+   "heavy": false,
+   "layer": "room",
+   "x": 846.5000000000034
+  },
+  {
+   "s": 14.233333333333325,
+   "side": "chill",
+   "who": "chillKid",
+   "heavy": false,
+   "layer": "room",
+   "x": 702.3076923076962
+  },
+  {
+   "s": 14.404166666666649,
+   "side": "chill",
+   "who": "chillKid",
+   "heavy": false,
+   "layer": "room",
+   "x": 615.576923076932
+  },
+  {
+   "s": 14.574999999999973,
+   "side": "chill",
+   "who": "chillKid",
+   "heavy": false,
+   "layer": "room",
+   "x": 528.8461538461677
+  },
+  {
+   "s": 14.74166666666663,
+   "side": "chill",
+   "who": "chillKid",
+   "heavy": false,
+   "layer": "room",
+   "x": 444.2307692307879
+  }
+ ]
+}

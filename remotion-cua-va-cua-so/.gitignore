@@ -1,0 +1,5 @@
+node_modules
+out/*.png
+.DS_Store
+out/*.mp4.part
+out/cua-va-cua-so.mp4
