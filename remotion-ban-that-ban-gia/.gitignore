@@ -1,0 +1,8 @@
+node_modules
+out/*.png
+out/frames
+.DS_Store
+out/*.mp4.part
+out/ban-that-ban-gia.mp4
+out/render.log
+audio/soundtrack_raw.wav

@@ -1,0 +1,25 @@
+{
+  "name": "ban-that-ban-gia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion short film: Bạn giả vs Bạn thật (9:16, 1080x1920, 30fps)",
+  "scripts": {
+    "studio": "remotion studio",
+    "audio": "tsx scripts/export-events.ts && python3 audio/make_audio.py",
+    "render": "remotion render BanThatBanGia out/ban-that-ban-gia.mp4 --codec=h264 --crf=16 --audio-bitrate=320k",
+    "build": "npm run audio && npm run render"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.540",
+    "@remotion/cli": "^4.0.540",
+    "@remotion/renderer": "^4.0.540",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
