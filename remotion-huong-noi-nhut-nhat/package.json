@@ -1,0 +1,22 @@
+{
+  "name": "huong-noi-vs-nhut-nhat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sfx": "node scripts/generate-audio.mjs",
+    "studio": "remotion studio",
+    "render": "remotion render src/index.ts HuongNoiNhutNhat out/huong-noi-vs-nhut-nhat.mp4 --codec h264 --crf 16 --audio-bitrate 320k"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "5.2.8",
+    "@remotion/cli": "4.0.540",
+    "@remotion/layout-utils": "^4.0.540",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
