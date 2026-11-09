@@ -2,7 +2,7 @@
 
 Phim ngắn 26 giây, dựng lại hoàn toàn bằng code từ video tham chiếu (*neuronvisuals*: “We built this wall together. Let's take it down together.”). Không dùng video gốc làm nền.
 
-- **Output:** `out/buc-tuong_web.mp4` (bản web, có trong repo). Bản master tạo bằng `npm run render`. Thông số: 1080×1920, 30fps, H.264, AAC 320k.
+- **Output:** `out/buc-tuong_web.mp4` (10 MB, H.264 CRF21, có trong repo). Bản master CRF17 (30 MB) tạo bằng `npm run render`. Thông số: 1080×1920, 30fps, H.264, AAC 320k.
 - **DNA giữ nguyên:** nền đen, nhân vật que trắng, lửa đỏ, gạch 3D, sàn bóng phản chiếu. Màu chuyển từ đỏ lửa sang xám lạnh rồi sang ánh sáng trắng, đúng như bản gốc.
 - **Font:** Montserrat (SIL OFL), tự host, gồm subset tiếng Việt.
 - **Âm thanh:** nhạc và SFX đều tự tổng hợp bằng Python/NumPy, không dùng sample hay bản ghi của bên thứ ba. Toàn quyền sử dụng thương mại. Mức khoảng −15 LUFS.
