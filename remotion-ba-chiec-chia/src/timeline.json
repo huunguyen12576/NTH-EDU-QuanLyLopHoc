@@ -1,0 +1,17 @@
+{
+  "fps": 30,
+  "outro": 4.8,
+  "scenes": [
+    {"id": "hook", "w": 0},
+    {"id": "mother", "w": 14},
+    {"id": "three", "w": 38},
+    {"id": "chatgpt", "w": 46},
+    {"id": "claude", "w": 66},
+    {"id": "gemini", "w": 89},
+    {"id": "limit", "w": 105},
+    {"id": "reveal", "w": 129},
+    {"id": "method", "w": 142},
+    {"id": "caution", "w": 165},
+    {"id": "payoff", "w": 181}
+  ]
+}

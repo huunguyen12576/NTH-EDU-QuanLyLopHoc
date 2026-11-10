@@ -1,0 +1,7 @@
+node_modules
+out/*.png
+out/qa
+out/*.part
+out/ba-chiec-chia.mp4
+voice/take_*.wav
+.DS_Store
